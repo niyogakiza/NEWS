@@ -1,5 +1,5 @@
 {
-  "name": "reactNativeInit",
+  "name": "newbbcapp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -41,7 +41,7 @@
       "./src/assets/fonts/"
     ]
   },
-  "author": "Trinadh Koya",
+  "author": "Niyogakiza",
   "license": "MIT",
-  "homepage": "https://github.com/trinadhkoya"
+  "homepage": "https://github.com/niyogakiza"
 }

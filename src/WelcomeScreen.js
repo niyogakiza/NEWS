@@ -6,6 +6,7 @@ import TextView from './_Theme/TextView';
 import Button from './components/Button';
 import {colors} from './_globals/colorPalette';
 import {goSignUp, goToAuth} from './navigation';
+import Feed from './screens/Feed';
 
 class WelcomeScreen extends PureComponent {
 
@@ -34,16 +35,17 @@ class WelcomeScreen extends PureComponent {
             <View style={[appStyles.container, styles.addContainer]}>
                 <View style={styles.topView}>
 
-                    <TextView h3 style={styles.introText}>Welcome,</TextView>
+                    <TextView h3 style={styles.introText}>BBC NEWS</TextView>
 
 
-                    <View style={styles.row}>
-                        <Button title={'Login'} style={styles.btn} onPress={this.openLoginScreen}/>
-                        <Button title={'Sign Up'} style={styles.btn} onPress={this.openSignUpScreen}/>
-                    </View>
+                    {/*<View style={styles.row}>*/}
+                        {/*<Button title={'Login'} style={styles.btn} onPress={this.openLoginScreen}/>*/}
+                    {/*<Button title={'Sign Up'} style={styles.btn} onPress={this.openSignUpScreen}/>*/}
+                    {/*</View>*/}
 
-                    <TextView h5 style={appStyles.footerText} onPress={this.openForgotPasswordScreen}>Forgot
-                        password?</TextView>
+                    {/*<TextView h5 style={appStyles.footerText} onPress={this.openForgotPasswordScreen}>Forgot*/}
+                        {/*password?</TextView>*/}
+                    <Feed />
 
                 </View>
             </View>
